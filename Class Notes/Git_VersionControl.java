@@ -23,10 +23,14 @@ git add file1.txt
 Git Steps:
 git status 
 git commit -m "initial commit"
-git branch - M main
-git push - u origin remote
+git branch -M main
+git push -u origin remote
 
 Branching:
 git checkout -b <branch-name>
 git push -u origin <branch-name>
+git fetch
+git branch -a [should then show the branch]
+# branch you want to work on
+git checkout <branch-name>
 */
