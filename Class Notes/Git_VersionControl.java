@@ -26,4 +26,7 @@ git commit -m "initial commit"
 git branch - M main
 git push - u origin remote
 
+Branching:
+git checkout -b <branch-name>
+git push -u origin <branch-name>
 */
