@@ -23,6 +23,10 @@ git add "Class Notes/Git_VersionControl.java"
 git add "Class Notes/"
 git add file1.txt
 
+Deleting Files:
+git rm file1.txt
+git commit -m "remove file1.txt"
+
 Git Steps:
 git status 
 git commit -m "initial commit"
@@ -78,4 +82,22 @@ Single Server:
 Distributed Users: 
 - User in centralized systems check out files from the central server, making the fike available locally. You can see
   what others are working & make changes accordingly
+
+Centralized Version Control System (CVS):
+- A system where all version history is stored in a central server and users work on their local copies of files
+- The central server ensures everyone works with the same data.
+
+Distrubute Version Control System (DVCS):
+- Git is a DVCS that helps track changes in files & facilitatez collab among developers unlike centralized system, Git allows
+  every user to have a complete copy of the project repo.
+- Changes can be pushed to & pulled from remote repositories like GitHub, GitLab, etc.
+
+Locked Model: 
+- In CVS a file can be lcoked by a user, meaning others cannot modify it until it is checked back in. 
+- Git doesn't use file locking, instead it relies on branching and merging. Multiple users can work on the same file together.
+
+Merge Model:
+- CVS support merging but the process is cumbersome. First one user checks in their changes and subsequent users must merge 
+ their changes with the existing one, resulting conflict as necessary. 
+- Git has advanced tools for merging changes from multiple branches and resolving conflicts.
 */
