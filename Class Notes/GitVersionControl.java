@@ -2,9 +2,10 @@
 
 *Git & Version Control*
 
-- Version Control System:
-    -A tool that manages changes to your code. It tracks of every modification
-    -collaborate with others & see who made specific changes EX: Git
+Version Control System:
+- A tool that manages changes to your code. It tracks of every modification
+- collaborate with others & see who made specific changes EX: Git
+
 
 Git commands:
 
