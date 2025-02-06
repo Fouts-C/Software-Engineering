@@ -86,4 +86,37 @@ Continuation Integration:
 
 On site customer: 
 - The customer is an actual member of the team (sits with team & brings requirements)
+
+    *Kanban* -> Create a board
+
+ - A simple kanban board has:
+  - To Do -> Tasks yet to start
+  - In Progress -> Tasks being worked on
+  - Review(Optional) -> Tasks being verified
+  - Done - Completed task
+
+Example: 
+  - To Do -> Task A, Task E
+  - In Progress -> Task C
+  - Review -> Task D
+  - Done -> Task B
+
+Definition: 
+  - Kanban is a visual workflow management method used to improve efficiency
+Origin: 
+  - Developed by Yoyota in 1940
+Usage: 
+  - Commonly used in software development, manufacturing & project management
+
+Core Principles of Kanban:
+  - Visualise work - Kanban Board
+  - Limit work in progress(WIP) - Prevent Overload
+  - Focus on flow - Ensure tasks more efficiently through stages
+  - Continuous Improvement - Regularly optimized workflow
+
+Kanban Real-World Example:
+  - Customer Support team: Use a kanban board to track tickets and ensure agents are not overwhelmed
+  - Software development tracks bug fixes and feature updates in different workflow stages
+
+
  */
